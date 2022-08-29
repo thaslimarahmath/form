@@ -1,0 +1,37 @@
+<html>
+<head>
+    <br><link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{
+    font-family: calibri, Helvetica ,sans-serif;
+}
+.container{
+    padding: 50px;
+}
+
+input[type=text], input[type=password], textarea{
+width: 100%;
+padding:15px;
+margin: 5px 0 22px 0;
+display:inline-block;
+border: none;
+background-image:url(bts.jpg)
+}
+input[type=text]:focus, input[type=password]:focus{
+    outline:none;
+}
+div {
+           padding: 10px 0;
+        }
+hr {
+    border:1px solid violet
+    margin-bottom: 25px;
+}
+.registerbtn {
+background-color:rgb(83, 51, 112)
+color: white;
+padding: 16px 20px;
+cursor: pointer
+
+}
